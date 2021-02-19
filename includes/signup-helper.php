@@ -11,7 +11,7 @@ if(isset($_POST['signup-submit'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
 
-    if ($pass !== $passw_rep) {
+    if ($passw !== $passw_rep) {
         header("Location: ../signup.php?error=diffPasswords");
         exit();
     }

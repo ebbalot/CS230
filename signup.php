@@ -17,12 +17,14 @@ require "includes/header.php"
                             <div class="row">
                                 <div class="col">
 
-                                    <input type="text" class="form-control" name="fname" placeholder="First Name" required autofocus>
+                                    <input type="text" class="form-control" name="fname" placeholder="First Name"
+                                        required autofocus>
 
                                 </div>
                                 <div class="col">
 
-                                    <input type="text" class="form-control" name="lname" placeholder="Last Name" required autofocus>
+                                    <input type="text" class="form-control" name="lname" placeholder="Last Name"
+                                        required autofocus>
 
                                 </div>
                             </div>
@@ -31,17 +33,19 @@ require "includes/header.php"
                         <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
 
                         <label for="inputEmail" class="visually-hidden">Email address</label>
-                        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required
-                            autofocus>
+                        <input type="email" id="inputEmail" class="form-control" name="email"
+                            placeholder="Email address" required autofocus>
 
                         <label for="inputPassword" class="visually-hidden">Password</label>
-                        <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
-
-                        <label for="inputPassword" class="visually-hidden">Confirm Password</label>
-                        <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password"
+                        <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
                             required>
 
-                        <button class="w-100 btn btn-lg btn-outline-danger btn-primary" name="signup-submit" type="submit">Sign in</button>
+                        <label for="inputPassword" class="visually-hidden">Confirm Password</label>
+                        <input type="password" id="inputPassword" class="form-control" name="con-pwd"
+                            placeholder="Confirm Password" required>
+
+                        <button class="w-100 btn btn-lg btn-outline-danger btn-primary" name="signup-submit"
+                            type="submit">Sign in</button>
                         <p class="mt-5 mb-3 text-muted">&copy; 2020–64209</p>
 
                     </form>
