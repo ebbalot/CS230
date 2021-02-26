@@ -40,21 +40,25 @@ require 'includes/header.php';
                 <form class="form-signin" action="includes/login-helper.php" method="post">
 
                     <h1 class="h3 mb-3 fw-normal">Login</h1>
-                    <p class="hint-text">Get on the point!
+                    <p class="hint-text">login idiot
                     </p>
+
                     <input type="text" class="form-control" name="uname-email" placeholder="Username/Email" required
                         autofocus>
+
 
                     <label for="inputPassword" class="visually-hidden">Password</label>
                     <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
                         required>
+
+
                     <button class="w-100 btn btn-lg btn-outline-danger btn-primary" name="login-submit"
-                        type="submit">Login</button>
+                        type="submit">Sign in</button>
                     <p class="mt-5 mb-3 text-muted">&copy; 2020–64209</p>
 
                 </form>
-
             </div>
         </div>
+    </div>
     </div>
 </main>
