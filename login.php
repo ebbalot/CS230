@@ -37,7 +37,7 @@ require 'includes/header.php';
 
         <div class="h-40 center-me">
             <div class="my-auto">
-                <form class="form-signin" action="includes/login-helper.php" method="post">
+                <form class="form-signin" action="includes/login-helper" method="post">
 
                     <h1 class="h3 mb-3 fw-normal">Login</h1>
                     <p class="hint-text">login idiot
