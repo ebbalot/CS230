@@ -10,14 +10,14 @@ if (isset($_POST['prof-submit'])) {
     $file = $_FILES['prof-image'];
     $file_name = $file['name'];
     $file_tmp_name = $file['tmp_name'];
-$file_error = $file['error'];
-$file_size = $file['size'];
+    $file_error = $file['error'];
+    $file_size = $file['size'];
 
 $ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
 
 $allowed = array('jpg', 'jepg', 'png', 'svg');
 
-if ($file_error !== 0) {
+if ($file_error != 0) {
     header("Location: ../profile.php?error=UploadError");
     exit();
 }
@@ -27,7 +27,7 @@ if (!in_array($ext, $allowed)) {
     exit();
 }
 
-if ($file_size > 4*MB) {
+if ($file_size > 5*MB) {
     header("Location: ../profile.php?error=FileSizeExceeded");
     exit();
 }
